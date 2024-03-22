@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--corPrima);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root{
+    --preto:#000000;
+    --branco:#fff;
+    --corPrima: #e8e6e6;
+}
+
+#cabecalho {
+    
+}
+
+#links{
+    width:34%;
+    height:0% ;
+    justify-content: flex-end;
+    align-items:space-around;
+}
+
+#banner{
+    display: flex;
+}
+
+#logo{
+    width: 30%;
+    height: 280px;
+    
+}
+
+#fish{
+    width: 70%;
+    height: 280px;
+}
+
+#titulo{
+    width: 100%;
+    display: flex;
+}
+
+#servicos{
+    width: 50%;
+    /* background-color: #000000; */
+    flex-direction: column;
+}
+
+#agenda{
+    width: 70%;
+    /* background-color: #000000; */
+    flex-direction: column;
+}
